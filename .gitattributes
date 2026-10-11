@@ -1,0 +1,5 @@
+# Normalise line endings so Windows and everyone else stop arguing
+* text=auto
+
+# Notebooks are JSON; keep diffs readable and never CRLF-mangled
+*.ipynb text eol=lf
